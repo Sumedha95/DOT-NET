@@ -1,0 +1,95 @@
+D:\New folder\research\research\bin\research.dll.config
+D:\New folder\research\research\bin\research.dll
+D:\New folder\research\research\bin\research.pdb
+D:\New folder\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+D:\New folder\research\research\obj\Debug\research.dll
+D:\New folder\research\research\obj\Debug\research.pdb
+D:\student rearch\New folder\research\research\bin\research.dll.config
+D:\student rearch\New folder\research\research\bin\research.dll
+D:\student rearch\New folder\research\research\bin\research.pdb
+D:\student rearch\New folder\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+D:\student rearch\New folder\research\research\obj\Debug\research.dll
+D:\student rearch\New folder\research\research\obj\Debug\research.pdb
+D:\project file\new project preparation\New folder\research\research\bin\research.dll.config
+D:\project file\new project preparation\New folder\research\research\bin\research.dll
+D:\project file\new project preparation\New folder\research\research\bin\research.pdb
+D:\project file\new project preparation\New folder\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+D:\project file\new project preparation\New folder\research\research\obj\Debug\research.dll
+D:\project file\new project preparation\New folder\research\research\obj\Debug\research.pdb
+D:\titli\research\research\bin\research.dll.config
+D:\titli\research\research\bin\research.dll
+D:\titli\research\research\bin\research.pdb
+D:\titli\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+D:\titli\research\research\obj\Debug\research.dll
+D:\titli\research\research\obj\Debug\research.pdb
+E:\titli\research\research\bin\research.dll.config
+E:\titli\research\research\bin\research.dll
+E:\titli\research\research\bin\research.pdb
+E:\titli\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+E:\titli\research\research\obj\Debug\research.dll
+E:\titli\research\research\obj\Debug\research.pdb
+D:\project file\titli\research\research\bin\research.dll.config
+D:\project file\titli\research\research\bin\research.dll
+D:\project file\titli\research\research\bin\research.pdb
+D:\project file\titli\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+D:\project file\titli\research\research\obj\Debug\research.dll
+D:\project file\titli\research\research\obj\Debug\research.pdb
+E:\research\research\bin\research.dll.config
+E:\research\research\bin\research.dll
+E:\research\research\bin\research.pdb
+E:\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+E:\research\research\obj\Debug\research.dll
+E:\research\research\obj\Debug\research.pdb
+C:\Users\TITLI_ROY\Desktop\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+C:\Users\TITLI_ROY\Desktop\research\research\bin\research.dll.config
+C:\Users\TITLI_ROY\Desktop\research\research\bin\research.dll
+C:\Users\TITLI_ROY\Desktop\research\research\bin\research.pdb
+C:\Users\TITLI_ROY\Desktop\research\research\obj\Debug\research.dll
+C:\Users\TITLI_ROY\Desktop\research\research\obj\Debug\research.pdb
+C:\Users\Rohan Roy\Downloads\research\research\bin\research.dll.config
+C:\Users\Rohan Roy\Downloads\research\research\bin\research.dll
+C:\Users\Rohan Roy\Downloads\research\research\bin\research.pdb
+C:\Users\Rohan Roy\Downloads\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+C:\Users\Rohan Roy\Downloads\research\research\obj\Debug\research.dll
+C:\Users\Rohan Roy\Downloads\research\research\obj\Debug\research.pdb
+F:\research\research\bin\research.dll.config
+F:\research\research\bin\research.dll
+F:\research\research\bin\research.pdb
+F:\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+F:\research\research\obj\Debug\research.dll
+F:\research\research\obj\Debug\research.pdb
+D:\TITTLI_PROJECT\research\research\bin\research.dll.config
+D:\TITTLI_PROJECT\research\research\bin\research.dll
+D:\TITTLI_PROJECT\research\research\bin\research.pdb
+D:\TITTLI_PROJECT\research\research\obj\Debug\research.dll
+D:\TITTLI_PROJECT\research\research\obj\Debug\research.pdb
+C:\Users\TITLI_ROY\Downloads\research\research\bin\research.dll.config
+C:\Users\TITLI_ROY\Downloads\research\research\bin\research.dll
+C:\Users\TITLI_ROY\Downloads\research\research\bin\research.pdb
+C:\Users\TITLI_ROY\Downloads\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+C:\Users\TITLI_ROY\Downloads\research\research\obj\Debug\research.dll
+C:\Users\TITLI_ROY\Downloads\research\research\obj\Debug\research.pdb
+D:\project file\final project\research\research\bin\research.dll.config
+D:\project file\final project\research\research\bin\research.dll
+D:\project file\final project\research\research\bin\research.pdb
+D:\project file\final project\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+D:\project file\final project\research\research\obj\Debug\research.dll
+D:\project file\final project\research\research\obj\Debug\research.pdb
+D:\abc project\project file\final project\research\research\bin\research.dll.config
+D:\abc project\project file\final project\research\research\bin\research.dll
+D:\abc project\project file\final project\research\research\bin\research.pdb
+D:\abc project\project file\final project\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+D:\abc project\project file\final project\research\research\obj\Debug\research.dll
+D:\abc project\project file\final project\research\research\obj\Debug\research.pdb
+D:\abc project\6th sem project\final project\research\research\bin\research.dll.config
+D:\abc project\6th sem project\final project\research\research\bin\research.dll
+D:\abc project\6th sem project\final project\research\research\bin\research.pdb
+D:\abc project\6th sem project\final project\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+D:\abc project\6th sem project\final project\research\research\obj\Debug\research.dll
+D:\abc project\6th sem project\final project\research\research\obj\Debug\research.pdb
+D:\DSI\abc project\6th sem project\final project\research\research\bin\research.dll.config
+D:\DSI\abc project\6th sem project\final project\research\research\bin\research.dll
+D:\DSI\abc project\6th sem project\final project\research\research\bin\research.pdb
+D:\DSI\abc project\6th sem project\final project\research\research\obj\Debug\research.csprojResolveAssemblyReference.cache
+D:\DSI\abc project\6th sem project\final project\research\research\obj\Debug\research.dll
+D:\DSI\abc project\6th sem project\final project\research\research\obj\Debug\research.pdb

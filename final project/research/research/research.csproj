@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FEDC83B0-1DFD-41B0-8746-71E1074A581C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>research</RootNamespace>
+    <AssemblyName>research</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="06\css\index.css" />
+    <Content Include="06\css\site_global.css" />
+    <Content Include="06\images\pic01.jpg" />
+    <Content Include="06\images\pic02.jpg" />
+    <Content Include="06\images\pic03.jpg" />
+    <Content Include="06\images\pic04.jpg" />
+    <Content Include="06\images\pic05.jpg" />
+    <Content Include="06\images\pic06.jpg" />
+    <Content Include="06\index.html" />
+    <Content Include="06\scripts\index.html" />
+    <Content Include="06\scripts\jquery.watch.js" />
+    <Content Include="06\scripts\museutils.js" />
+    <Content Include="css-log\animate-custom.css" />
+    <Content Include="css-log\demo.css" />
+    <Content Include="css-log\fonts\BebasNeue-webfont.svg" />
+    <Content Include="css-log\fonts\fontomas-webfont.svg" />
+    <Content Include="css-log\fonts\franchise-bold-webfont.svg" />
+    <Content Include="css-log\style.css" />
+    <Content Include="css-log\style2.css" />
+    <Content Include="css-log\style3.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\portfolio.css" />
+    <Content Include="css\progressbar.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\team.css" />
+    <Content Include="fonts\fontawesome-webfont3295-2.html" />
+    <Content Include="fonts\fontawesome-webfont3295-3.html" />
+    <Content Include="fonts\fontawesome-webfont3295-4.html" />
+    <Content Include="fonts\fontawesome-webfont3295.html" />
+    <Content Include="fonts\fontawesome-webfontd41d.html" />
+    <Content Include="fonts\fontawesome\fontawesome6d27.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular-2.html" />
+    <Content Include="fonts\glyphicons-halflings-regular-3.html" />
+    <Content Include="fonts\glyphicons-halflings-regular-4.html" />
+    <Content Include="fonts\glyphicons-halflings-regular.html" />
+    <Content Include="fonts\glyphicons-halflings-regulard41d.html" />
+    <Content Include="images\08212_BG.png" />
+    <Content Include="images\animated-overlay.html" />
+    <Content Include="images\banner1.jpg" />
+    <Content Include="images\banner2.jpg" />
+    <Content Include="images\banner3.jpg" />
+    <Content Include="images\banner4.jpg" />
+    <Content Include="images\bgimg.html" />
+    <Content Include="images\bipradeep.jpg" />
+    <Content Include="images\blank.jpg" />
+    <Content Include="images\cd-top-arrow.svg" />
+    <Content Include="images\contact.jpg" />
+    <Content Include="images\ds.png" />
+    <Content Include="images\DSC_0284.JPG" />
+    <Content Include="images\final_ds_logo.png" />
+    <Content Include="images\hod.jpg" />
+    <Content Include="images\home.jpg" />
+    <Content Include="images\home2.jpg" />
+    <Content Include="images\img_fjords_wide.jpg" />
+    <Content Include="images\img_mountains_wide.jpg" />
+    <Content Include="images\img_nature_wide.jpg" />
+    <Content Include="images\maam.jpg" />
+    <Content Include="images\nik.jpg" />
+    <Content Include="images\pg.jpg" />
+    <Content Include="images\pic0.jpg" />
+    <Content Include="images\pic1.jpg" />
+    <Content Include="images\pic2.jpg" />
+    <Content Include="images\pic3.jpg" />
+    <Content Include="images\pic4.jpg" />
+    <Content Include="images\pic5.jpg" />
+    <Content Include="images\pic6.jpg" />
+    <Content Include="images\pic7.jpg" />
+    <Content Include="images\pic8.jpg" />
+    <Content Include="images\port.jpg" />
+    <Content Include="images\port1-1.jpg" />
+    <Content Include="images\port1.jpg" />
+    <Content Include="images\port10-10.jpg" />
+    <Content Include="images\port10.jpg" />
+    <Content Include="images\port11-11.jpg" />
+    <Content Include="images\port11.jpg" />
+    <Content Include="images\port12-12.jpg" />
+    <Content Include="images\port12.jpg" />
+    <Content Include="images\port2-2.jpg" />
+    <Content Include="images\port2.jpg" />
+    <Content Include="images\port3-3.jpg" />
+    <Content Include="images\port3.jpg" />
+    <Content Include="images\port4-4.jpg" />
+    <Content Include="images\port4.jpg" />
+    <Content Include="images\port5-5.jpg" />
+    <Content Include="images\port5.jpg" />
+    <Content Include="images\port6-6.jpg" />
+    <Content Include="images\port6.jpg" />
+    <Content Include="images\port7-7.jpg" />
+    <Content Include="images\port7.jpg" />
+    <Content Include="images\port8-8.jpg" />
+    <Content Include="images\port8.jpg" />
+    <Content Include="images\port9-9.jpg" />
+    <Content Include="images\port9.jpg" />
+    <Content Include="images\raniket.jpg" />
+    <Content Include="images\rohit.jpg" />
+    <Content Include="images\samanth.jpg" />
+    <Content Include="images\shravani.jpg" />
+    <Content Include="images\sir.jpg" />
+    <Content Include="images\skill.jpg" />
+    <Content Include="images\sss.jpg" />
+    <Content Include="images\team1.jpg" />
+    <Content Include="images\team2.jpg" />
+    <Content Include="images\team3.jpg" />
+    <Content Include="images\team4.jpg" />
+    <Content Include="images\ul_welcome.jpg" />
+    <Content Include="images\Untitled.jpg" />
+    <Content Include="images\welcome.jpg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\cbpGridGallery.js" />
+    <Content Include="js\classie.js" />
+    <Content Include="js\imagesloaded.pkgd.min.js" />
+    <Content Include="js\index.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\masonry.pkgd.min.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\progressbar.js" />
+    <Content Include="js\SmoothScroll.min.js" />
+    <Content Include="LogIn.aspx" />
+    <Content Include="registration.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Index.aspx" />
+    <Content Include="report.aspx" />
+    <Content Include="fac_mem.aspx" />
+    <Content Include="report_update.aspx" />
+    <Content Include="StudentResearch.aspx" />
+    <Content Include="UL_contact.aspx" />
+    <Content Include="UL_research.aspx" />
+    <Content Include="UL_Welcom.aspx" />
+    <Content Include="UL_FacCo.aspx" />
+    <Content Include="UL_Report.aspx" />
+    <Content Include="UL_student.aspx" />
+    <Content Include="Welcome.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin_master.Master.cs">
+      <DependentUpon>admin_master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_master.Master.designer.cs">
+      <DependentUpon>admin_master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registration.aspx.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration.aspx.designer.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="USER_LOGIN.Master.cs">
+      <DependentUpon>USER_LOGIN.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="USER_LOGIN.Master.designer.cs">
+      <DependentUpon>USER_LOGIN.Master</DependentUpon>
+    </Compile>
+    <Compile Include="USER_MASTER.Master.cs">
+      <DependentUpon>USER_MASTER.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="USER_MASTER.Master.designer.cs">
+      <DependentUpon>USER_MASTER.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="report.aspx.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="report.aspx.designer.cs">
+      <DependentUpon>report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fac_mem.aspx.cs">
+      <DependentUpon>fac_mem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fac_mem.aspx.designer.cs">
+      <DependentUpon>fac_mem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="report_update.aspx.cs">
+      <DependentUpon>report_update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="report_update.aspx.designer.cs">
+      <DependentUpon>report_update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentResearch.aspx.cs">
+      <DependentUpon>StudentResearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentResearch.aspx.designer.cs">
+      <DependentUpon>StudentResearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UL_contact.aspx.cs">
+      <DependentUpon>UL_contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UL_contact.aspx.designer.cs">
+      <DependentUpon>UL_contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UL_research.aspx.cs">
+      <DependentUpon>UL_research.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UL_research.aspx.designer.cs">
+      <DependentUpon>UL_research.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UL_Welcom.aspx.cs">
+      <DependentUpon>UL_Welcom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UL_Welcom.aspx.designer.cs">
+      <DependentUpon>UL_Welcom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UL_FacCo.aspx.cs">
+      <DependentUpon>UL_FacCo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UL_FacCo.aspx.designer.cs">
+      <DependentUpon>UL_FacCo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UL_Report.aspx.cs">
+      <DependentUpon>UL_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UL_Report.aspx.designer.cs">
+      <DependentUpon>UL_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UL_student.aspx.cs">
+      <DependentUpon>UL_student.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UL_student.aspx.designer.cs">
+      <DependentUpon>UL_student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont3295.ttf" />
+    <Content Include="fonts\fontawesome\fontawesome6d27.eot" />
+    <Content Include="fonts\fontawesome\fontawesome6d27.ttf" />
+    <Content Include="fonts\fontawesome\fontawesome6d27.woff" />
+    <Content Include="fonts\fontawesome\fontawesomed41d.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="USER_MASTER.Master" />
+    <Content Include="admin_master.Master" />
+    <Content Include="css-log\fonts\BebasNeue-webfont.eot" />
+    <Content Include="css-log\fonts\BebasNeue-webfont.ttf" />
+    <Content Include="css-log\fonts\BebasNeue-webfont.woff" />
+    <Content Include="css-log\fonts\BebasNeue-webfontd41d.eot" />
+    <Content Include="css-log\fonts\fontomas-webfont.eot" />
+    <Content Include="css-log\fonts\fontomas-webfont.ttf" />
+    <Content Include="css-log\fonts\fontomas-webfont.woff" />
+    <Content Include="css-log\fonts\fontomas-webfontd41d.eot" />
+    <Content Include="css-log\fonts\franchise-bold-webfont.eot" />
+    <Content Include="css-log\fonts\franchise-bold-webfont.ttf" />
+    <Content Include="css-log\fonts\franchise-bold-webfont.woff" />
+    <Content Include="css-log\fonts\franchise-bold-webfontd41d.eot" />
+    <Content Include="USER_LOGIN.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UploadImages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54603</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54603/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
